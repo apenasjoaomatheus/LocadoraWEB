@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de acesso</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>Cadastrar usuarios</h1>
+    <h3><a href="telaprincipal.html">Inicio</a></h3>
+    <h4><a href="index.html">Sair</a></h4>
+    <fieldset>
+        <form action="cadastros.html">
+            <label for="">Nome:</label><br>
+            <input type="text" placeholder="Login"> <br>
+            Senha: <br>
+            <input type="password" placeholder="Senha"> <br>
+            <p>
+                Sexo: <br>
+                <input type="radio" id="femi" name="fav_language" value="Femininp">
+                <label for="femi">Feminino</label><br>
+                <input type="radio" id="mascu" name="fav_language" value="Masculino">
+                <label for="mascu">Masculino</label><br>
+            </p>
+            <p>
+                <label for="">Preferencias</label><br><br>
+                Terror:
+                <input type="checkbox">
+                Ação:
+                <input type="checkbox">
+                Comédia:
+                <input type="checkbox">
+                Suspense:
+                <input type="checkbox">
+                Drama:
+                <input type="checkbox">
+            </p>
+            <p>
+                <label for="obs">Observações</label><br>
+                <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <button type="submit">Cadastrar</button>
+            </p>
+            <p>
+                <button type="reset">Limpar Campos</button>
+            </p>
+            <p>
+                <button type="button" onclick="window.location.href='cadastros.html'">Voltar</button>
+            </p>
+        </form>
+    </fieldset>
+</body>
+
+</html>
